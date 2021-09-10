@@ -1,1 +1,39 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="tareas.css" ?>
+<!DOCTYPE equipos SYSTEM "tareas.dtd">
+
+<equipos>
+
+      <equipo>
+
+          <facultad nombre="Facultad de Ingenieria y Arquitectura" codigo="001">FIA</facultad>
+          <carrera nombrec="Ingenieria de sistemas Informaticos" codigoc="001">Sistemas</carrera>
+          <formacion materia="GT"></formacion>
+          <profesor></profesor>
+          <actividad_evaluada  tarea="tarea investigacion" porcentaje="20%"></actividad_evaluada>
+          <informacion></informacion>
+          <estudiante coordinador="Grupo01" carnet="55555" nombre ="Juan" apellido ="Che" >Coordinador1</estudiante>
+          <estudiante integrante="Grupo01" carnet="78748654" nombre ="Ko" apellido ="La" >Integrante1</estudiante>
+          <estudiante integrante="Grupo01" carnet="2752" nombre ="Ko" apellido ="La" >Integrante1</estudiante>
+          <estudiante integrante="Grupo01" carnet="4545" nombre ="Ka" apellido ="pa" >Integrante2</estudiante>
+          <estudiante integrante="Grupo01" carnet="542" nombre ="Po" apellido ="Le" >Integrante3</estudiante>
+          
+
+      </equipo>
+
+          <equipo>
+
+          <facultad></facultad>
+          <carrera>Industrial</carrera>
+          <formacion  materia="GD"></formacion>
+          <profesor></profesor>
+          <actividad_evaluada></actividad_evaluada>
+          <informacion></informacion>
+          <estudiante coordinador="Grupo02" carnet="888888" nombre ="Maria" apellido ="Cho" >Coordinador2</estudiante>
+         <estudiante integrante="Grupo02" carnet="2452" nombre ="dsao" apellido ="Lsda" >Integrante1</estudiante>
+          <estudiante integrante="Grupo02" carnet="42452" nombre ="Kasda" apellido ="pasda" >Integrante2</estudiante>
+          <estudiante integrante="Grupo02" carnet="544522" nombre ="Poasd" apellido ="Lsade" >Integrante3</estudiante>
+          
+
+      </equipo>
+</equipos>
