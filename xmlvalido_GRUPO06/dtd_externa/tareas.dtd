@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE equipos [
+<!ATTLIST equipos copyright CDATA #FIXED "Universidad de El Salvador">
+<!ELEMENT equipos (equipo+)>
+<!ELEMENT equipo (propiedad?, facultad,carrera,formacion,profesor, actividad_evaluada,informacion, integrante)>
+<!ELEMENT propiedad (#PCDATA)>
+    
+<!ELEMENT facultad (#PCDATA)>
+    <!ATTLIST  facultad  nombre  CDATA #REQUIRED>
+    <!ATTLIST  facultad  codigo  CDATA #REQUIRED>
+<!ELEMENT carrera (#PCDATA)>
+    <!ATTLIST  carrera nombrec  CDATA #REQUIRED>
+    <!ATTLIST  carrera  codigoc  CDATA #REQUIRED>
+    
+<!ELEMENT formacion (#PCDATA)>
+<!ATTLIST  formacion  materia  (GT | GD | GL) #REQUIRED>
+
+<!ELEMENT profesor (#PCDATA)>
+<!ATTLIST  profesor  identificación  CDATA #IMPLIED>
+
+<!ELEMENT actividad_evaluada (#PCDATA)>
+ <!ATTLIST  actividad_evaluada  tarea CDATA #REQUIRED>
+    <!ATTLIST  actividad_evaluada  porcentaje  CDATA #REQUIRED>
+    
+<!ELEMENT informacion (#PCDATA)>
+<!ELEMENT integrante (#PCDATA)>
+<!ATTLIST  integrante coordinador  CDATA #REQUIRED>
+<!ATTLIST  integrante  integrantes  CDATA #REQUIRED>
+<!ATTLIST  integrante  sexo  (M|F) #REQUIRED>
+<!ATTLIST  integrante  carnet  CDATA #IMPLIED>
+] >
+
+<equipos>
+
+      <equipo>
+
+          <propiedad>ues</propiedad>
+          <facultad nombre="Facultad de Ingenieria y Arquitectura" codigo="001">FIA</facultad>
+          <carrera nombrec="Ingenieria de sistemas Informaticos" codigoc="001">Sistemas</carrera>
+          <formacion materia="GT"></formacion>
+          <profesor></profesor>
+          <actividad_evaluada  tarea="tarea investigacion" porcentaje="20%"></actividad_evaluada>
+          <informacion></informacion>
+          <integrante></integrante>
+          
+
+      </equipo>
+
+          <equipo>
+
+          <propiedad>ues</propiedad>
+          <facultad></facultad>
+          <carrera>Industrial</carrera>
+          <formacion></formacion>
+          <profesor></profesor>
+          <actividad_evaluada></actividad_evaluada>
+          <informacion></informacion>
+          <integrante></integrante>
+          
+
+      </equipo>
+</equipos>
