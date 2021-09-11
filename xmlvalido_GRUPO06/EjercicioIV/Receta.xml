@@ -1,44 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE platillos SYSTEM "Receta.dtd">
+
 <!-- EjercicioIV  Receta de Cocina por : Katerin Angel, Rosalio Monterrosa,  Marvin Rivera-->
 <platillos>
-<receta nombre="Lasaña con carne molida">
-<ingredientes nombre="Ingredientes">
-<ingrediente id="1.">1 lb pasta para lasaña 1/2 kg</ingrediente>
-<ingrediente id="2.">4 litros agua</ingrediente>
-<ingrediente id="3.">1 cucharada aceite</ingrediente>
-<ingrediente id="4.">1 cucharada sal o consomé de pollo en polvo</ingrediente>
-<ingredienteRelleno nombre="Ingredientes del relleno">
-<ingredienteRelleno id="1.">2 lbs de carne molida 1 kg</ingredienteRelleno>
-<ingredienteRelleno id="2.">1 pieza cebolla mediana picada</ingredienteRelleno>
-<ingredienteRelleno id="3.">2 dientes ajo picados</ingredienteRelleno>
-<ingredienteRelleno id="4.">1 cucharada aceite de oliva</ingredienteRelleno>
-<ingredienteRelleno id="5.">2 latas salsa para spaghetti medianas</ingredienteRelleno>
-<ingredienteRelleno id="6.">½ taza agua o vino blanco</ingredienteRelleno>
-<ingredienteRelleno id="7.">15 oz queso ricotta o queso crema</ingredienteRelleno>
-<ingredienteRelleno id="8.">½ taza queso parmesano rallado</ingredienteRelleno>
-<ingredienteRelleno id="9.">1 taza queso para quesadilllas</ingredienteRelleno>
-<ingredienteRelleno id="10.">1 cucharada albahacar</ingredienteRelleno>
-<ingredienteRelleno id="11.">1 cucharada sal</ingredienteRelleno>
-<ingredienteRelleno id="14.">1/3 cucharada pimienta</ingredienteRelleno>
-</ingredienteRelleno>
-</ingredientes>
-<proceso nombre="Instrucciones">
-<proceso num="paso1.">Calentamos el agua (4 litros) con una cucharada de aceite, podemos agregar sal o consomé de pollo. Cuando empiece a hervir, agregamos las láminas de pasta y mezclamos un poco solo para separarlas. El agua debe de cubrir la pasta.</proceso>
-<proceso num="paso2.">Dejamos cocer aproximadamente 7-8 minutos o hasta que la pasta este suave. (Mientras puedes ir picando los vegetales que vamos a utilizar para el relleno).</proceso>
-<proceso num="paso3.">Pasado este tiempo, escurrimos y separamos.</proceso>
-<proceso num="paso4.">Calentamos el horno a 375F o 190 C.</proceso>
-<procesoRelleno nombre="Instrucciones para elaborar el relleno.">
-<procesoRelleno num="paso1.">Calentamos un sartén, agregamos aceite de oliva y freímos la cebolla y el ajo, hasta que la cebolla quede acitronada (transparente).</procesoRelleno>
-<procesoRelleno num="paso2.">Incorporamos la carne molida y freímos.</procesoRelleno>
-<procesoRelleno num="paso3.">Agregamos la media taza de vino o agua, una lata de la salsa de spaghetti, el albahacar, sal, pimienta y bajamos el fuego, dejamos hervir. Retiramos del fuego.</procesoRelleno>
-<procesoRelleno num="paso4.">Aparte, engrasamos un refractario rectangular, agregamos la mitad de una lata de salsa de spaghetti para cubrir el fondo del molde.</procesoRelleno>
-<procesoRelleno num="paso5.">Acomodamos las láminas de lasaña, haciendo capas. Colocamos una capa de lasaña, una parte de la mezcla de carne, queso ricota queso parmesano. Repetimos hasta que terminemos con la pasta.</procesoRelleno>
-<procesoRelleno num="paso6.">Encima de la última capa, agregamos salsa de spaghetti.</procesoRelleno>
-<procesoRelleno num="paso7.">Tapamos con papel aluminio y metemos al horno por treinta minutos.</procesoRelleno>
-<procesoRelleno num="paso8.">Sacamos del horno y cubrimos con queso quesadilla y agregamos cualquier queso que haya sobrado.</procesoRelleno>
-<procesoRelleno num="paso9.">Metemos al horno sin tapar por cinco minutos o hasta que gratine o derrita el queso de encima.</procesoRelleno>
-<procesoRelleno num="paso10.">Sacamos del horno y dejamos reposar por cinco minutos antes de servir, para que no se desbarate.</procesoRelleno>
-</procesoRelleno>
-</proceso>
-</receta>
+    <receta nombre="Lasaña con carne molida">
+        <ingredientes nombre="Ingredientes">
+            <ingrediente id="1.">1 lb pasta para lasaña 1/2 kg</ingrediente>
+            <ingrediente id="2.">4 litros agua</ingrediente>
+            <ingrediente id="3.">1 cucharada aceite</ingrediente>
+            <ingrediente id="4.">1 cucharada sal o consomé de pollo en polvo</ingrediente>
+            <ingredientesRelleno nombre="Ingredientes del relleno">
+                <ingredienteRelleno id="1.">2 lbs de carne molida 1 kg</ingredienteRelleno>
+                <ingredienteRelleno id="2.">1 pieza cebolla mediana picada</ingredienteRelleno>
+                <ingredienteRelleno id="3.">2 dientes ajo picados</ingredienteRelleno>
+                <ingredienteRelleno id="4.">1 cucharada aceite de oliva</ingredienteRelleno>
+                <ingredienteRelleno id="5.">2 latas salsa para spaghetti medianas</ingredienteRelleno>
+                <ingredienteRelleno id="6.">½ taza agua o vino blanco</ingredienteRelleno>
+                <ingredienteRelleno id="7.">15 oz queso ricotta o queso crema</ingredienteRelleno>
+                <ingredienteRelleno id="8.">½ taza queso parmesano rallado</ingredienteRelleno>
+                <ingredienteRelleno id="9.">1 taza queso para quesadilllas</ingredienteRelleno>
+                <ingredienteRelleno id="10.">1 cucharada albahacar</ingredienteRelleno>
+                <ingredienteRelleno id="11.">1 cucharada sal</ingredienteRelleno>
+                <ingredienteRelleno id="14.">1/3 cucharada pimienta</ingredienteRelleno>
+            </ingredientesRelleno>
+        </ingredientes>
+        <procesos nombre="Instrucciones">
+            <proceso num="paso1.">Calentamos el agua (4 litros) con una cucharada de aceite, podemos agregar sal o consomé de pollo. Cuando empiece a hervir, agregamos las láminas de pasta y mezclamos un poco solo para separarlas. El agua debe de cubrir la pasta.</proceso>
+            <proceso num="paso2.">Dejamos cocer aproximadamente 7-8 minutos o hasta que la pasta este suave. (Mientras puedes ir picando los vegetales que vamos a utilizar para el relleno).</proceso>
+            <proceso num="paso3.">Pasado este tiempo, escurrimos y separamos.</proceso>
+            <proceso num="paso4.">Calentamos el horno a 375F o 190 C.</proceso>
+            <procesosRelleno nombre="Instrucciones para elaborar el relleno.">
+                <procesoRelleno num="paso1.">Calentamos un sartén, agregamos aceite de oliva y freímos la cebolla y el ajo, hasta que la cebolla quede acitronada (transparente).</procesoRelleno>
+                <procesoRelleno num="paso2.">Incorporamos la carne molida y freímos.</procesoRelleno>
+                <procesoRelleno num="paso3.">Agregamos la media taza de vino o agua, una lata de la salsa de spaghetti, el albahacar, sal, pimienta y bajamos el fuego, dejamos hervir. Retiramos del fuego.</procesoRelleno>
+                <procesoRelleno num="paso4.">Aparte, engrasamos un refractario rectangular, agregamos la mitad de una lata de salsa de spaghetti para cubrir el fondo del molde.</procesoRelleno>
+                <procesoRelleno num="paso5.">Acomodamos las láminas de lasaña, haciendo capas. Colocamos una capa de lasaña, una parte de la mezcla de carne, queso ricota queso parmesano. Repetimos hasta que terminemos con la pasta.</procesoRelleno>
+                <procesoRelleno num="paso6.">Encima de la última capa, agregamos salsa de spaghetti.</procesoRelleno>
+                <procesoRelleno num="paso7.">Tapamos con papel aluminio y metemos al horno por treinta minutos.</procesoRelleno>
+                <procesoRelleno num="paso8.">Sacamos del horno y cubrimos con queso quesadilla y agregamos cualquier queso que haya sobrado.</procesoRelleno>
+                <procesoRelleno num="paso9.">Metemos al horno sin tapar por cinco minutos o hasta que gratine o derrita el queso de encima.</procesoRelleno>
+                <procesoRelleno num="paso10.">Sacamos del horno y dejamos reposar por cinco minutos antes de servir, para que no se desbarate.</procesoRelleno>
+            </procesosRelleno>
+        </procesos>
+    </receta>
 </platillos>
