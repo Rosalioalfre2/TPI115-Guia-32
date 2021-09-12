@@ -1,0 +1,60 @@
+platillos{
+    background-image: url(imagen2.jpg);
+    margin: 25px 15% 25px 15%;
+}
+strong{
+	font-weight: bold;
+}
+
+h1{
+    background-color: green;
+    color: white;
+    font-size: 1cm;
+    text-align: center;
+    display:block;
+}
+
+ receta{
+    border: 5px double green;
+    background-color: antiquewhite;
+    font-size: 1.2cm;
+    text-align: center;
+    display: block;
+ }
+
+ingredientes{
+    border: 10px black;
+    display: block;
+    padding-left: 50px;
+    padding-top: 30px;
+ }
+
+ indicacion{
+    color: black;
+    margin: 10px;
+    font-size: 1.0cm;
+    text-align: start;
+    display: block;
+ }
+
+ ingrediente, ingredienteRelleno{
+     color: black;
+     font-size: 0.6cm;
+     text-align: start;
+     display: list-item;
+ }
+
+ procesos{
+    display: block;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+ }
+
+ proceso, procesoRelleno{
+     color:black;
+     font-size: 0.6cm;
+     text-align: start;
+     display: block;
+ }
