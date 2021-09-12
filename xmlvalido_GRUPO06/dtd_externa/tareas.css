@@ -1,20 +1,20 @@
 /* ejercicio3.css   GRUPO 06  */
 
-equipos{margin: 0 auto;background-color:rgb(223, 223, 223); background-size: 100% 100%; padding: 20px 20px 20px 20px;}
+equipos{margin: 0 auto;background-image: url(team11.jpg);  background-size: 100% 100%; background-repeat: no-repeat; background-size: cover;padding: 20px 20px 20px 20px;}
 /*equipo {background-color:rgb(223, 223, 223);font-size:0.8cm;  text-align: center;display:block;}*/
-equipo{color:black; font-size:0.5cm; text-align: center;background-color: rgb(255, 227, 182);
+equipo{color:black; font-size:0.5cm; text-align: center;background-color: rgb(254, 255, 255);
     display: table; width: 500px; 
     border: 5px double black; margin:15px auto;}
 
-carrera{color:black;font-size:0.5cm; text-align: center;  display:block;}
-materia{color:black;font-size:0.5cm; text-align: center;  display:block;}
-profesor{color:black;font-size:0.5cm; text-align: center;  display:block;}
-actividad{color:black;font-size:0.5cm; text-align: center;  display:block;}
+carrera{color:black;font-size:0.70cm; text-align: center;  display:block; background-color: rgb(187, 243, 250); font-weight: 700; text-shadow:rgb(135, 181, 235) 2px 2px 3px;}
+materia{color:black;font-size:0.60cm; text-align: center;  display:block; background-color:rgb(187, 243, 250);}
+profesor{color:black;font-size:0.60cm; text-align: center;  display:block; background-color: rgb(187, 243, 250);}
+actividad{color:black;font-size:0.5cm; text-align: center;  display:block; background-color: rgb(187, 243, 250);;}
 
 
 numero { display: table; width: 40px; border: 3px double rgb(151, 23, 23); margin:left;margin: 04px }
 tema_asignado{color:black;font-size:0.5cm; text-align: center;  display:inline-block; margin: 10px;}
-coordinador { display: table; width: 40px; border: 3px hidden rgb(151, 23, 23); display:inline;}
-integrante { display: table; width: 40px; border: 3px hidden rgb(151, 23, 23);  display:inline; margin:auto; }
-carnet { display: table; width: 40px; border: 3px hidden rgb(151, 23, 23);  margin:10px;}
-
+ /*{ display: table; width: 40px; border: 3px hidden rgb(151, 23, 23); display:inline;}*/
+integrante{ display: table; width: 30px; border: 1px hidden rgb(151, 23, 23);  display:inline ;margin:50px; }
+coordinador{ display: table; width: 30px; border: 1px hidden rgb(151, 23, 23);  display:inline ;margin:50px; }
+carnet{ display: table; width: 30px; border: 1px hidden rgb(151, 23, 23);  display:inline ;margin:auto; }
