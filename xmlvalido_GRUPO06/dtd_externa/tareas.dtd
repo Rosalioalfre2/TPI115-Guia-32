@@ -1,53 +1,33 @@
-<!-- documento dtd -->
-<!ELEMENT equipos (equipo)+>
-<!ELEMENT equipo ( facultad,carrera,formacion,profesor, actividad_evaluada,informacion, estudiante)>
-<!ELEMENT facultad (#PCDATA)>
-    <!ATTLIST  facultad  nombre  CDATA #REQUIRED>
-    <!ATTLIST  facultad  codigo  CDATA #REQUIRED>
+<!ELEMENT equipos (carrera,materia,grupo)>
+  <!ATTLIST equipos 
+  copyright CDATA #FIXED "Universidad de El Salvador"
+  facultad CDATA #FIXED "Facultad de Ingeniería y Arquitectura - FIA">
+
 <!ELEMENT carrera (#PCDATA)>
-    <!ATTLIST  carrera nombrec  CDATA #REQUIRED>
-    <!ATTLIST  carrera  codigoc  CDATA #REQUIRED>
-<!ELEMENT formacion (#PCDATA)>
-    <!ATTLIST  formacion  materia  (GT | GD | GL) #REQUIRED>
-<!ELEMENT profesor (#PCDATA)>
-    <!ATTLIST  profesor  identificación  CDATA #IMPLIED>
-<!ELEMENT actividad_evaluada (#PCDATA)>
- <!ATTLIST  actividad_evaluada  tarea CDATA #REQUIRED>
-    <!ATTLIST  actividad_evaluada  porcentaje  CDATA #REQUIRED>  
-<!ELEMENT informacion (#PCDATA)>
-<!ELEMENT estudiante (coordinador, integrante1, integrante2, integrante3)>
-<!ELEMENT coordinador (carnet, (nombre|apellido)*)>
+  <!ATTLIST  carrera codigo CDATA #REQUIRED>
+  
+<!ELEMENT materia (#PCDATA)>
 
-<!ELEMENT carnet (#PCDATA)>
-  <!ATTLIST  carnet coordinador  CDATA  #REQUIRED>
-<!ELEMENT nombre (#PCDATA)>
-  <!ATTLIST  nombre coordinador  CDATA  #REQUIRED>
-<!ELEMENT apellido (#PCDATA)>
-  <!ATTLIST  apellido coordinador  CDATA  #REQUIRED>
+<!ELEMENT grupo (profesor,actividad,equipo+)>
+  <!ATTLIST grupo 
+  tipo (GT | GL | GD) #REQUIRED
+  numero CDATA #REQUIRED>
 
+  <!ELEMENT profesor (#PCDATA)>
 
-<!ELEMENT integrante1 (carnet1, (nombre1|apellido1)*)>
-<!ELEMENT carnet1 (#PCDATA)>
-  <!ATTLIST  carnet1 estudiante1  CDATA  #REQUIRED>
-<!ELEMENT nombre1 (#PCDATA)>
-  <!ATTLIST  nombre1 estudiante1  CDATA  #REQUIRED>
-<!ELEMENT apellido1 (#PCDATA)>
-  <!ATTLIST  apellido1 estudiante1  CDATA  #REQUIRED>
+  <!ELEMENT actividad (#PCDATA)>
+    <!ATTLIST actividad
+    porcentaje CDATA #REQUIRED>
 
-<!ELEMENT integrante2 (carnet2, (nombre2|apellido2)*)>
-<!ELEMENT carnet2 (#PCDATA)>
-  <!ATTLIST  carnet2 estudiante2  CDATA  #REQUIRED>
-<!ELEMENT nombre2 (#PCDATA)>
-  <!ATTLIST  nombre2 estudiante2  CDATA  #REQUIRED>
-<!ELEMENT apellido2 (#PCDATA)>
-  <!ATTLIST  apellido2 estudiante2  CDATA  #REQUIRED>
+  <!ELEMENT equipo (numero, tema_asignado,estudiantes)>
+    <!ELEMENT numero (#PCDATA)>
+    
+    <!ELEMENT tema_asignado (#PCDATA)>
 
-
-<!ELEMENT integrante3 (carnet3, (nombre3|apellido3)*)>
-<!ELEMENT carnet3 (#PCDATA)>
-  <!ATTLIST  carnet3 estudiante3  CDATA  #REQUIRED>
-<!ELEMENT nombre3 (#PCDATA)>
-  <!ATTLIST  nombre3 estudiante3  CDATA  #REQUIRED>
-<!ELEMENT apellido3 (#PCDATA)>
-  <!ATTLIST  apellido3 estudiante3  CDATA  #REQUIRED> 
-  <!ATTLIST equipos lang (es|en|fr) "es" copyright CDATA #FIXED "Universidad de El Salvador">
+    <!ELEMENT estudiantes (coordinador,integrante,integrante,integrante)>
+      <!ELEMENT coordinador (carnet,(nombres|apellidos)*)>
+      <!ELEMENT integrante (carnet,(nombres|apellidos)*)>
+      <!ATTLIST coordinador sexo (M|F) "M">
+      <!ELEMENT carnet (#PCDATA)>
+      <!ELEMENT nombres (#PCDATA)>
+      <!ELEMENT apellidos (#PCDATA)>
