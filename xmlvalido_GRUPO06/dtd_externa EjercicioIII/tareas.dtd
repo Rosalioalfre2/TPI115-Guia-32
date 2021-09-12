@@ -1,0 +1,33 @@
+<!ELEMENT equipos (carrera,materia,grupo)>
+  <!ATTLIST equipos 
+  copyright CDATA #FIXED "Universidad de El Salvador"
+  facultad CDATA #FIXED "Facultad de Ingeniería y Arquitectura - FIA">
+
+<!ELEMENT carrera (#PCDATA)>
+  <!ATTLIST  carrera codigo CDATA #REQUIRED>
+  
+<!ELEMENT materia (#PCDATA)>
+
+<!ELEMENT grupo (profesor,actividad,equipo+)>
+  <!ATTLIST grupo 
+  tipo (GT | GL | GD) #REQUIRED
+  numero CDATA #REQUIRED>
+
+  <!ELEMENT profesor (#PCDATA)>
+
+  <!ELEMENT actividad (#PCDATA)>
+    <!ATTLIST actividad
+    porcentaje CDATA #REQUIRED>
+
+  <!ELEMENT equipo (numero, tema_asignado,estudiantes)>
+    <!ELEMENT numero (#PCDATA)>
+    
+    <!ELEMENT tema_asignado (#PCDATA)>
+
+    <!ELEMENT estudiantes (coordinador,integrante,integrante,integrante)>
+      <!ELEMENT coordinador (carnet,(nombres|apellidos)*)>
+      <!ELEMENT integrante (carnet,(nombres|apellidos)*)>
+      <!ATTLIST coordinador sexo (M|F) "M">
+      <!ELEMENT carnet (#PCDATA)>
+      <!ELEMENT nombres (#PCDATA)>
+      <!ELEMENT apellidos (#PCDATA)>

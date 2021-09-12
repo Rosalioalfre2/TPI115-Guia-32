@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="tareas.css" ?>
+<!DOCTYPE equipos SYSTEM "tareas.dtd">
+<equipos>
+  <carrera codigo="001">Ingeniería de Sistemas Informáticos</carrera>
+  <materia>Programación 1</materia>
+  <grupo tipo="GT" numero="01">
+    <profesor>Ing. Oscar Díaz</profesor>
+    <actividad porcentaje="20%">Tarea ex aula</actividad>
+    
+    <equipo>
+      <numero>01</numero>
+      <tema_asignado>Programa que recibe notas de estudiantes 
+      y genere un informe a partir de las mismas</tema_asignado>
+      <estudiantes>
+        <coordinador>
+          <carnet>AB21001</carnet>
+          <nombres>Rodrigo Ernesto</nombres>
+          <apellidos>Ayala Benitez</apellidos>
+        </coordinador>
+        
+        <integrante>
+          <carnet>BP21036</carnet>
+          <nombres>Manuel Fernando</nombres>
+          <apellidos>Benitez Portillo</apellidos>
+        </integrante>
+        
+        <integrante>
+          <carnet>AZ21054</carnet>
+          <nombres>Edwin Antonio</nombres>
+          <apellidos>Alvarado Zepeda</apellidos>
+        </integrante>
+        
+        <integrante>
+          <carnet>AS21089</carnet>
+          <nombres>Edenilson José</nombres>
+          <apellidos>Aleman Soriano</apellidos>
+        </integrante>
+      </estudiantes>
+    </equipo>
+    
+    <equipo>
+      <numero>02</numero>
+      <tema_asignado>Programa que permita almacenar productos de 
+      almacen y genere un reporte de bodega e inventario</tema_asignado>
+      <estudiantes>
+        <coordinador sexo="F">
+          <carnet>CD20034</carnet>
+          <nombres>Diana Johana</nombres>
+          <apellidos>Castillo Duarte</apellidos>
+        </coordinador>
+        
+        <integrante>
+          <carnet>VA21075</carnet>
+          <nombres>José María</nombres>
+          <apellidos>Villalobos Alfaro</apellidos>
+        </integrante>
+        
+        <integrante>
+          <carnet>HR21895</carnet>
+          <nombres>Marilyn Fernanda</nombres>
+          <apellidos>Henriquez Ruíz</apellidos>
+        </integrante>
+        
+        <integrante>
+          <carnet>AB21001</carnet>
+          <nombres>Rocío del Carmen</nombres>
+          <apellidos>Rodriguez Domínguez</apellidos>
+        </integrante>
+      </estudiantes>
+    </equipo>
+    
+  </grupo>
+</equipos>
