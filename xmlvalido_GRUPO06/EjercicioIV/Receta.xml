@@ -13,7 +13,7 @@
             <ingrediente id="3.">1 cucharada aceite</ingrediente>
             <ingrediente id="4.">1 cucharada sal o consomé de pollo en polvo</ingrediente>
             <ingredientesRelleno nombre="Ingredientes del relleno">
-            <indicacion>Ingredientes para el relleno.</indicacion>
+                <indicacion>Ingredientes para el relleno.</indicacion>
                 <ingredienteRelleno id="1.">2 lbs de carne molida 1 kg</ingredienteRelleno>
                 <ingredienteRelleno id="2.">1 pieza cebolla mediana picada</ingredienteRelleno>
                 <ingredienteRelleno id="3.">2 dientes ajo picados</ingredienteRelleno>
@@ -30,22 +30,22 @@
         </ingredientes>
         <procesos nombre="Instrucciones">
             <indicacion>Instrucciones.</indicacion>
-            <proceso num="paso1."><strong>Paso 1.</strong> Calentamos el agua (4 litros) con una cucharada de aceite, podemos agregar sal o consomé de pollo. Cuando empiece a hervir, agregamos las láminas de pasta y mezclamos un poco solo para separarlas. El agua debe de cubrir la pasta.</proceso>
-            <proceso num="paso2."><strong>Paso 2.</strong> Dejamos cocer aproximadamente 7-8 minutos o hasta que la pasta este suave. (Mientras puedes ir picando los vegetales que vamos a utilizar para el relleno).</proceso>
-            <proceso num="paso3."><strong>Paso 3.</strong> Pasado este tiempo, escurrimos y separamos.</proceso>
-            <proceso num="paso4."><strong>Paso 4.</strong> Calentamos el horno a 375°F o 190°C.</proceso>
+            <proceso num="paso1."><strong>Paso 1.</strong><p>Calentamos el agua (4 litros) con una cucharada de aceite, podemos agregar sal o consomé de pollo. Cuando empiece a hervir, agregamos las láminas de pasta y mezclamos un poco solo para separarlas. El agua debe de cubrir la pasta.</p></proceso>
+            <proceso num="paso2."><strong>Paso 2.</strong> <p>Dejamos cocer aproximadamente 7-8 minutos o hasta que la pasta este suave. (Mientras puedes ir picando los vegetales que vamos a utilizar para el relleno).</p></proceso>
+            <proceso num="paso3."><strong>Paso 3.</strong> <p>Pasado este tiempo, escurrimos y separamos.</p></proceso>
+            <proceso num="paso4."><strong>Paso 4.</strong> <p>Calentamos el horno a 375°F o 190°C.</p></proceso>
             <procesosRelleno nombre="Instrucciones para elaborar el relleno.">
             <indicacion>Instrucciones para elaborar el relleno.</indicacion>
-                <procesoRelleno num="paso1."><strong>Paso 1.</strong> Calentamos un sartén, agregamos aceite de oliva y freímos la cebolla y el ajo, hasta que la cebolla quede acitronada (transparente).</procesoRelleno>
-                <procesoRelleno num="paso2."><strong>Paso 2.</strong> Incorporamos la carne molida y freímos.</procesoRelleno>
-                <procesoRelleno num="paso3."><strong>Paso 3.</strong> Agregamos la media taza de vino o agua, una lata de la salsa de spaghetti, el albahacar, sal, pimienta y bajamos el fuego, dejamos hervir. Retiramos del fuego.</procesoRelleno>
-                <procesoRelleno num="paso4."><strong>Paso 4.</strong> Aparte, engrasamos un refractario rectangular, agregamos la mitad de una lata de salsa de spaghetti para cubrir el fondo del molde.</procesoRelleno>
-                <procesoRelleno num="paso5."><strong>Paso 5.</strong> Acomodamos las láminas de lasaña, haciendo capas. Colocamos una capa de lasaña, una parte de la mezcla de carne, queso ricota queso parmesano. Repetimos hasta que terminemos con la pasta.</procesoRelleno>
-                <procesoRelleno num="paso6."><strong>Paso 6.</strong> Encima de la última capa, agregamos salsa de spaghetti.</procesoRelleno>
-                <procesoRelleno num="paso7."><strong>Paso 7.</strong>Tapamos con papel aluminio y metemos al horno por treinta minutos.</procesoRelleno>
-                <procesoRelleno num="paso8."><strong>Paso 8.</strong> Sacamos del horno y cubrimos con queso quesadilla y agregamos cualquier queso que haya sobrado.</procesoRelleno>
-                <procesoRelleno num="paso9."><strong>Paso 9.</strong> Metemos al horno sin tapar por cinco minutos o hasta que gratine o derrita el queso de encima.</procesoRelleno>
-                <procesoRelleno num="paso10."><strong>Paso 10.</strong> Sacamos del horno y dejamos reposar por cinco minutos antes de servir, para que no se desbarate.</procesoRelleno>
+                <procesoRelleno num="paso1."><strong>Paso 1.</strong> <p>Calentamos un sartén, agregamos aceite de oliva y freímos la cebolla y el ajo, hasta que la cebolla quede acitronada (transparente).</p></procesoRelleno>
+                <procesoRelleno num="paso2."><strong>Paso 2.</strong> <p>Incorporamos la carne molida y freímos.</p></procesoRelleno>
+                <procesoRelleno num="paso3."><strong>Paso 3.</strong> <p>Agregamos la media taza de vino o agua, una lata de la salsa de spaghetti, el albahacar, sal, pimienta y bajamos el fuego, dejamos hervir. Retiramos del fuego.</p></procesoRelleno>
+                <procesoRelleno num="paso4."><strong>Paso 4.</strong> <p>Aparte, engrasamos un refractario rectangular, agregamos la mitad de una lata de salsa de spaghetti para cubrir el fondo del molde.</p></procesoRelleno>
+                <procesoRelleno num="paso5."><strong>Paso 5.</strong> <p>Acomodamos las láminas de lasaña, haciendo capas. Colocamos una capa de lasaña, una parte de la mezcla de carne, queso ricota queso parmesano. Repetimos hasta que terminemos con la pasta.</p></procesoRelleno>
+                <procesoRelleno num="paso6."><strong>Paso 6.</strong> <p>Encima de la última capa, agregamos salsa de spaghetti.</p></procesoRelleno>
+                <procesoRelleno num="paso7."><strong>Paso 7.</strong> <p>Tapamos con papel aluminio y metemos al horno por treinta minutos.</p></procesoRelleno>
+                <procesoRelleno num="paso8."><strong>Paso 8.</strong> <p>Sacamos del horno y cubrimos con queso quesadilla y agregamos cualquier queso que haya sobrado.</p></procesoRelleno>
+                <procesoRelleno num="paso9."><strong>Paso 9.</strong> <p>Metemos al horno sin tapar por cinco minutos o hasta que gratine o derrita el queso de encima.</p></procesoRelleno>
+                <procesoRelleno num="paso10."><strong>Paso 10.</strong> <p>Sacamos del horno y dejamos reposar por cinco minutos antes de servir, para que no se desbarate.</p></procesoRelleno>
             </procesosRelleno>
         </procesos>
     </receta>

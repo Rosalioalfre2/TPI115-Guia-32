@@ -1,13 +1,20 @@
 <!ELEMENT platillos (receta) >
-<!ELEMENT receta (ingredientes, procesos) >
-<!ELEMENT ingredientes (ingrediente*,ingredientesRelleno) >
+<!ELEMENT receta (h1,ingredientes, procesos) >
+<!ELEMENT h1 (#PCDATA) >
+<!ELEMENT ingredientes (indicacion, ingrediente*,ingredientesRelleno) >
+<!ELEMENT indicacion (#PCDATA) >
 <!ELEMENT ingrediente (#PCDATA)> 
-<!ELEMENT ingredientesRelleno (ingredienteRelleno*) >
+<!ELEMENT ingredientesRelleno (indicacion, ingredienteRelleno*) >
+
 <!ELEMENT ingredienteRelleno (#PCDATA) >
-<!ELEMENT procesos (proceso*, procesosRelleno) >
-<!ELEMENT proceso (#PCDATA) >
-<!ELEMENT procesosRelleno (procesoRelleno)* >
-<!ELEMENT procesoRelleno (#PCDATA) >
+<!ELEMENT procesos (indicacion, proceso*, procesosRelleno) >
+
+<!ELEMENT proceso (strong, p) >
+<!ELEMENT strong (#PCDATA)>
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT procesosRelleno (indicacion, procesoRelleno*) >
+
+<!ELEMENT procesoRelleno (strong, p) >
 
 <!ATTLIST receta nombre CDATA "">
 <!ATTLIST ingredientes nombre CDATA "" >
