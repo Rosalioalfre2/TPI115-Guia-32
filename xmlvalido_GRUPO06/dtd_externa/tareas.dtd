@@ -1,7 +1,7 @@
 <!ELEMENT equipos (carrera,materia,grupo)>
   <!ATTLIST equipos 
   copyright CDATA #FIXED "Universidad de El Salvador"
-  facultad CDATA #FIXED "Facultad de Ingeniería y Arquitectura - FIA">
+  facultad CDATA #FIXED "Facultad de Ingeniería y Arquitectura  - FIA">
 
 <!ELEMENT carrera (#PCDATA)>
   <!ATTLIST  carrera codigo CDATA #REQUIRED>
