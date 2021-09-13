@@ -55,6 +55,38 @@
       almacen y genere un reporte de bodega e inventario</tema_asignado>
       <estudiantes>
         <coordinador sexo="F">
+          <carnet>MD19003</carnet>
+          <nombres>Evelyn Lisseth</nombres>
+          <apellidos>Montolla Duarte</apellidos>
+        </coordinador>
+        
+        <integrante>
+          <carnet>GA18069</carnet>
+          <nombres>Andrés Abenabí</nombres>
+          <apellidos>García Acevedo</apellidos>
+        </integrante>
+        
+        <integrante sexo="F">
+          <carnet>CG18064</carnet>
+          <nombres>Maria José</nombres>
+          <apellidos>Carbajal Guillén</apellidos>
+        </integrante>
+        
+        <integrante sexo="F">
+          <carnet>DM20091</carnet>
+          <nombres>Rosa Esther</nombres>
+          <apellidos>Diaz Martinez</apellidos>
+        </integrante>
+      </estudiantes>
+    </equipo>
+    
+    <equipo modalidad_defensa="virtual">
+      <numero>03</numero>
+      <fecha_entrega>20 de Septiembre</fecha_entrega>
+      <tema_asignado>Programa que almacene notas de estudiantes y permita obtener 
+      los mejores luegares de cada grado</tema_asignado>
+      <estudiantes>
+        <coordinador sexo="F">
           <carnet>CD20034</carnet>
           <nombres>Diana Johana</nombres>
           <apellidos>Castillo Duarte</apellidos>
