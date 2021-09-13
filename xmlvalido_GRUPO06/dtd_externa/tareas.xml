@@ -11,7 +11,7 @@
     <equipo modalidad_defensa="presencial" porcentaje_avance="50%">
       <numero>01</numero>
       <fecha_entrega>16 de Septiembre</fecha_entrega>
-      <tema_asignado>Programa que recibe notas de estudiantes 
+      <tema_asignado>Programa que reciba citas atendidas de un hospital
       y genere un informe a partir de las mismas</tema_asignado>
       <estudiantes>
         <coordinador>
@@ -83,8 +83,8 @@
     <equipo modalidad_defensa="virtual">
       <numero>03</numero>
       <fecha_entrega>20 de Septiembre</fecha_entrega>
-      <tema_asignado>Programa que almacene notas de estudiantes y permita obtener 
-      los mejores luegares de cada grado</tema_asignado>
+      <tema_asignado>Programa que almacene notas de estudiantes de un colegio y permita obtener 
+      los mejores lugares de cada grado</tema_asignado>
       <estudiantes>
         <coordinador sexo="F">
           <carnet>CD20034</carnet>
