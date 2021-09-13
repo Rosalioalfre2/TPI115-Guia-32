@@ -33,7 +33,7 @@ nav ul li{
     width: 12.5%;
     float: left;
     background-color:rgb(233, 249, 255);
-    padding: 05px 0;
+    padding: 5px 0;
     border-right: 1px #fff solid;
     box-sizing: border-box;
     border: 1px solid black;
@@ -73,7 +73,7 @@ h2{
 table{
     border: 1px solid black;
     text-align: center;
-    margin: 100px auto;
+    margin: 30px auto;
 }
 
 table th{
