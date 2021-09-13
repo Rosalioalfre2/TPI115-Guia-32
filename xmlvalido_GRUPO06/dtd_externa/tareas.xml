@@ -8,8 +8,9 @@
     <profesor>Ing. Oscar Díaz</profesor>
     <actividad porcentaje="20%">Tarea ex aula</actividad>
     
-    <equipo>
+    <equipo modalidad_defensa="presencial" porcentaje_avance="50%">
       <numero>01</numero>
+      <fecha_entrega>16 de Septiembre</fecha_entrega>
       <tema_asignado>Programa que recibe notas de estudiantes 
       y genere un informe a partir de las mismas</tema_asignado>
       <estudiantes>
@@ -37,10 +38,19 @@
           <apellidos>Aleman Soriano</apellidos>
         </integrante>
       </estudiantes>
+      <asesorias>
+        <fecha>Aseoria: 20 de agosto</fecha>
+        <encargado>Responsable: Inga. Nelly Hernandez</encargado>
+      </asesorias>
+      <asesorias>
+        <fecha>Asesoria: 01 de septiembre</fecha>
+        <encargado>Responsable: Inga. Nelly Hernandez</encargado>
+      </asesorias>
     </equipo>
     
-    <equipo>
+    <equipo modalidad_defensa="virtual">
       <numero>02</numero>
+      <fecha_entrega>20 de Septiembre</fecha_entrega>
       <tema_asignado>Programa que permita almacenar productos de 
       almacen y genere un reporte de bodega e inventario</tema_asignado>
       <estudiantes>

@@ -18,3 +18,6 @@ tema_asignado{color:black;font-size:0.5cm; text-align: center;  display:inline-b
 integrante{ display: table; width: 30px; border: 1px hidden rgb(151, 23, 23);  display:inline ;margin:10%; }
 coordinador{ display: table; width: 30px; border: 1px hidden rgb(151, 23, 23);  display:inline ;margin:08%; padding: auto;}
 carnet{ display: table; width: 30px; border: 1px hidden rgb(151, 23, 23);  display:inline ;margin:auto; padding: auto; }
+
+fecha{ display: table; width: 30px; border: 1px hidden rgb(151, 23, 23);  display:inline ;margin:25%; padding: auto}
+encargado{ display: table; width: 30px; border: 1px hidden rgb(151, 23, 23);  display:inline ;margin: 15%; padding:auto}
