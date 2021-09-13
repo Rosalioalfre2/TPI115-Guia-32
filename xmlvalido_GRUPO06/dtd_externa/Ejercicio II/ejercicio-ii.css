@@ -1,0 +1,43 @@
+fichero{
+    margin: 20px 20%;
+    background-color: lightcoral;
+}
+
+ficha{
+    margin: 10px 0;
+    padding: 20px 10%;
+    display: block;
+    border: double 5px black;
+}
+
+nombre{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+apellido{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+direccion{
+    display: block;
+    font-size: 1.5rem;
+}
+
+DUI{
+    display: block;
+    font-size: 1.5rem;
+}
+
+numero_telefono{
+    display: block;
+    font-size: 1.5rem;
+}
+
+NIT{
+    display: block;
+    font-size: 1.5rem;
+}

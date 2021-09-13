@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../ejercicio-ii.css" ?>
+<!DOCTYPE fichero SYSTEM "Ejercicio II.2b.dtd">
+<!-- ejemplodtd1.xml SUGRUPO -->
+<fichero>
+ <ficha>
+  <nombre sexo="femenino" edad="17">Angelina</nombre>
+  <apellido>Fernandez</apellido>
+  <direccion>c/Ulises, 36</direccion>
+ </ficha>
+
+ <ficha>
+  <nombre sexo="masculino" edad="28">Oliver Suan</nombre>
+  <apellido>Tyson</apellido>
+  <direccion>Canton Santa Lucia, c/ 28</direccion>
+  <DUI>09057863-5</DUI>
+ </ficha>
+
+ <ficha>
+  <nombre sexo="desconocido" edad="61">Andros Hera</nombre>
+  <apellido>Stark Pops</apellido>
+  <direccion>Calle 13, latinoamerica</direccion>
+  <DUI>04896523-9</DUI>
+  <numero_telefono>+50378965412</numero_telefono>
+  <NIT>0511-05062000-101-3</NIT>
+ </ficha>
+
+</fichero>
