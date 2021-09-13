@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="ejercicio-ii.css" ?>
 <!-- ejemplodtd1.xml SUGRUPO -->
 <!DOCTYPE fichero [
 		<!ELEMENT fichero (ficha+)>
@@ -15,4 +16,12 @@
   <apellido>Fernandez</apellido>
   <direccion>c/Ulises, 36</direccion>
  </ficha>
+
+ <ficha>
+  <nombre sexo="masculino" edad="28">Oliver Suan</nombre>
+  <apellido>Tyson</apellido>
+  <direccion>Canton Santa Lucia, c/ 28</direccion>
+  <DUI>09057863-5</DUI>
+ </ficha>
+ 
 </fichero>
